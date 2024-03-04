@@ -1,4 +1,4 @@
-export default books = [
+export default [
     {
         id: 1,
         img: "https://m.media-amazon.com/images/I/91afIYwE9BL._AC_UY327_FMwebp_QL65_.jpg",
