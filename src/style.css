@@ -30,6 +30,11 @@ body {
     }
 }
 
+.header {
+    text-align: center;
+    margin-top: 2em;
+}
+
 .book {
     background-color: #fff;
     border-radius: 1em;
