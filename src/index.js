@@ -3,29 +3,33 @@ import ReactDOM from "react-dom";
 import './style.css'
 
 
-const firstBook = {
-  img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL254_SR254,254_.jpg",
-  title: "I Love You to The Moon and Back",
-  author: "Amelia Hepworth"
-}
 
-const secondBook = {
-  img: "https://images-na.ssl-images-amazon.com/images/I/913C+MR3S5L._AC_UL127_SR127,127_.jpg",
-  title: "The Women: A Novel",
-  author: "Ameliy Brown"
-}
+const books = [
+  {
+    img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL254_SR254,254_.jpg",
+    title: "I Love You to The Moon and Back",
+    author: "Amelia Hepworth"
+  },
+  {
+    img: "https://images-na.ssl-images-amazon.com/images/I/913C+MR3S5L._AC_UL127_SR127,127_.jpg",
+    title: "The Women: A Novel",
+    author: "Ameliy Brown"
+  }
+]
 
 function AmazonBooks() {
   return (
-    <section className="booklist">
-      <Book img={firstBook.img} title={firstBook.title} author={firstBook.author} />
-      <Book img={secondBook.img} title={secondBook.title} author={secondBook.author} />
+    <section className="booklist">{
+      books.map((book) => {
+        return <Book book={book} />
+      })
+    }
     </section>
   )
 }
 
 const Book = (props) => {
-  const { img, title, author } = props
+  const { img, title, author } = props.book
   return (
     <article className="book">
       <img src={img} />
