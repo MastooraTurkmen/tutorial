@@ -23,5 +23,11 @@ export default [
         title: "The Frozen River",
         author: "Ariel Lawhon"
     },
+    {
+        id: 5,
+        img: "https://m.media-amazon.com/images/I/91R12PezWmL._AC_UY327_FMwebp_QL65_.jpg",
+        title: "None of This Is True",
+        author: "Lisa Jewell"
+    },
     
 ]
