@@ -2,38 +2,37 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './style.css'
 
+
+const firstBook = {
+  img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL254_SR254,254_.jpg",
+  title: "I Love You to The Moon and Back",
+  author: "Amelia Hepworth"
+}
+
+const secondBook = {
+  img: "https://images-na.ssl-images-amazon.com/images/I/913C+MR3S5L._AC_UL127_SR127,127_.jpg",
+  title: "The Women: A Novel",
+  author: "Ameliy Brown"
+}
+
 function AmazonBooks() {
   return (
     <section className="booklist">
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+      <Book img={firstBook.img} title={firstBook.title} author={firstBook.author} />
+      <Book img={secondBook.img} title={secondBook.title} author={secondBook.author} />
     </section>
   )
 }
 
-const Book = () => {
+const Book = (props) => {
+  const { img, title, author } = props
   return (
     <article className="book">
-      <Image />
-      <Title />
-      <Author />
+      <img src={img} />
+      <h1>{title}</h1>
+      <h4>{author}</h4>
     </article>
   )
 }
-
-const Image = () => <img src="https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL254_SR254,254_.jpg" alt="" />
-const Title = () => <h1>I Love You to The Moon and Back</h1>
-const Author = () => <h4 style={{
-  color: "#617d98",
-  fontSize: "0.78rem",
-  marginTop: "0.25rem"
-}} >Amelia Hepworth</h4>
 
 ReactDOM.render(<AmazonBooks />, document.getElementById('root'))
