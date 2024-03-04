@@ -13,6 +13,7 @@ function AmazonBooks() {
       <Book />
       <Book />
       <Book />
+      <Book />
     </section>
   )
 }
