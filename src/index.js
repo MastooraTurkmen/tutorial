@@ -6,12 +6,16 @@ import Book from "./Book";
 
 function AmazonBooks() {
   return (
-    <section className="booklist">{
-      books.map((book) => {
-        return <Book key={book.id} book={book} />
-      })
-    }
-    </section>
+    <>
+      <h1>Amazon Books</h1>
+      <section className="booklist">
+        {
+          books.map((book) => {
+            return <Book key={book.id} book={book} />
+          })
+        }
+      </section>
+    </>
   )
 };
 
