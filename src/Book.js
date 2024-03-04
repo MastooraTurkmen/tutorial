@@ -9,3 +9,5 @@ const Book = (props) => {
         </article>
     )
 }
+
+export default Book;
