@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './style.css'
 import books from "./books";
+import Book from "./Book";
 
 function AmazonBooks() {
   return (
