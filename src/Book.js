@@ -5,7 +5,7 @@ const Book = (props) => {
             <img src={img} />
             <h1>{title}</h1>
             <h4>{author}</h4>
-            <button type="button" onClick={() => { console.log(title) }}>Click More</button>
+            {/* <button type="button" onClick={() => { console.log(title) }}>Click More</button> */}
         </article>
     )
 }
