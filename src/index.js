@@ -18,8 +18,8 @@ function AmazonBooks() {
 const Book = () => {
   return (
     <>
-      <Title />
       <Image />
+      <Title />
       <Author />
     </>
   )
