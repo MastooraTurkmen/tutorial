@@ -28,3 +28,9 @@ body {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+.book {
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 1rem 2rem;
+}
