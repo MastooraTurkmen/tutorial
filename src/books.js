@@ -19,8 +19,9 @@ export default [
     },
     {
         id: 4,
-        img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL254_SR254,254_.jpg",
-        title: "I Love You to The Moon and Back",
-        author: "Amelia Hepworth"
+        img: "https://m.media-amazon.com/images/I/A1-ni760x4L._AC_UY327_FMwebp_QL65_.jpg",
+        title: "The Frozen River",
+        author: "Ariel Lawhon"
     },
+    
 ]
