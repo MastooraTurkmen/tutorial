@@ -29,5 +29,11 @@ export default [
         title: "None of This Is True",
         author: "Lisa Jewell"
     },
+    {
+        id: 6,
+        img: "https://m.media-amazon.com/images/I/91w8TUp-nRL._AC_UY327_FMwebp_QL65_.jpg",
+        title: "The Heiress",
+        author: "Rachel Hawkins"
+    },
     
 ]
