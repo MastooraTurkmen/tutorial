@@ -35,5 +35,10 @@ export default [
         title: "The Heiress",
         author: "Rachel Hawkins"
     },
-    
+    {
+        id: 7,
+        img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL254_SR254,254_.jpg",
+        title: "I Love You to The Moon and Back",
+        author: "Amelia Hepworth"
+    },
 ]
