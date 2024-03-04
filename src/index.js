@@ -33,6 +33,6 @@ const Author = () => <h4 style={{
   color: "#617d98",
   fontSize: "0.78rem",
   marginTop: "0.25rem"
-}} >John Deo</h4>
+}} >Amelia Hepworth</h4>
 
 ReactDOM.render(<AmazonBooks />, document.getElementById('root'))
