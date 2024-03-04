@@ -7,7 +7,7 @@ import Book from "./Book";
 function AmazonBooks() {
   return (
     <>
-      <h1>Amazon Books</h1>
+      <h1 className="header">Amazon Books</h1>
       <section className="booklist">
         {
           books.map((book) => {
