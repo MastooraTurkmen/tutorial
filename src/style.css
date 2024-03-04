@@ -34,3 +34,7 @@ body {
     border-radius: 1em;
     padding: 1rem 2rem;
 }
+
+.book h1 {
+    margin-top: 0.5rem;
+}
