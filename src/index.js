@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import './style.css'
 
 function AmazonBooks() {
   return (
-    <section>
+    <section className="booklist">
+      <Book />
+      <Book />
       <Book />
       <Book />
       <Book />
